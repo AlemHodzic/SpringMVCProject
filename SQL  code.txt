@@ -1,0 +1,15 @@
+create database dbproizvodi_29
+
+use dbproizvodi_29
+
+CREATE TABLE `emp99` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(45) DEFAULT NULL,
+  `salary` varchar(45) DEFAULT NULL,
+  `designation` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+insert into Emp99(name, salary, designation) values("Sea Dweller", "8230", "Sea Dweller Description") 
+insert into Emp99(name, salary, designation) values("Submariner", "2300", "Submariner Description") 
+insert into Emp99(name, salary, designation) values("Day-Date", "7662", "Day-Date Description") 
